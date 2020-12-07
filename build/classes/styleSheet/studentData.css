@@ -1,0 +1,61 @@
+#root{
+    -fx-font-size:15;
+    -fx-background-color: #f5fffe;
+    -fx-alignment:CENTER_LEFT;
+    -fx-padding: 30 0 90 20;
+}
+#uploadImage, #compo, #textvb, #address{
+    -fx-background-color: #fff;
+    -fx-padding: 20 20 20 10;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 3 );
+}
+#image{
+        -fx-position: absolute;
+        -fx-top:0;
+        -fx-bottom:0;
+        -fx-right:0;
+        -fx-left:0;
+        -fx-overflow:hidden;
+
+}
+
+#textvb TextField{
+    -fx-background-color: #fff;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-min-width:200;
+    -fx-border-color: rgb(2, 179, 228);
+}
+#compo .label{
+     -fx-min-width:60;
+     -fx-max-width:60;
+     -fx-alignment: BOTTOM_LEFT;
+}
+#compo ComboBox{
+    -fx-background-color: #fff;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-min-width:180;
+    -fx-border-color: rgb(2, 179, 228);
+}
+#addbtn{
+    -fx-alignment: CENTER;
+}
+
+#addbtn .button{
+    -fx-background-color: rgb(2, 179, 228);
+    -fx-min-width: 600;
+    -fx-min-height:50;
+    -fx-border-radius: 300;
+    -fx-background-radius: 300;
+    -fx-text-fill: #fff;
+    -fx-font-family: "Open Sans", sans-serif;
+    -fx-font-size:20;
+    -fx-font-weight:bold;
+}
+#addbtn .button:hover{
+    -fx-background-color: #65cbe7;
+    -fx-text-fill: #fff;
+}
+

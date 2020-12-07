@@ -1,0 +1,63 @@
+#roo{
+    -fx-font-size:15;
+    -fx-background-color: #f5fffe;
+}
+TextField{
+    -fx-background-color: #fff;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-min-width:200;
+    -fx-border-color: rgb(2, 179, 228);
+}
+
+#lbl-txt-vb .label{
+     -fx-min-width:40;
+     -fx-alignment: BOTTOM_LEFT;
+}
+#lbl-txt-vb{
+    -fx-background-color: #fff;
+    -fx-padding: 20 20 20 10;
+    -fx-background-radius: 30;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 3 );
+}
+
+#lbl-rd-vb{
+    -fx-background-color: #fff;
+    -fx-padding: 20 20 10 10;
+    -fx-background-radius: 30;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 3 );
+}
+#btn-vb{
+    -fx-background-color: #fff;
+    -fx-padding: 20 20 10 10;
+    -fx-background-radius: 30;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 3 );
+}
+#radio-hb{
+    -fx-padding: 10 0 10 15;
+}
+#left-lay{
+    -fx-padding:50 0 5 20;
+}
+#3btns .button{
+    -fx-min-width:120;
+    -fx-min-height:40; 
+}
+#print-btn{
+    -fx-min-width:390;
+    -fx-min-height:40;
+}
+#btn-vb .button{
+    -fx-background-color: #fff;
+    -fx-border-color: rgb(2, 179, 228);
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-text-fill: rgb(2, 179, 228);
+    -fx-font-family: "Open Sans", sans-serif;
+    -fx-font-size:13;
+    -fx-font-weight:bold;
+}
+#btn-vb .button:hover{
+    -fx-background-color: #65cbe7;
+    -fx-text-fill: #fff;
+}

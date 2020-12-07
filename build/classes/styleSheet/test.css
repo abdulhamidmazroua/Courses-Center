@@ -1,0 +1,70 @@
+.root{
+    -fx-background-size: 700 500;
+    -fx-background-radius: 10; 
+    -fx-padding:50;
+}
+#sign-in{
+    -fx-border-color: transparent transparent rgb(255, 0, 102) transparent;
+    -fx-border-width:3;
+}
+#sign-up:hover{
+    -fx-border-color: transparent transparent rgb(255, 0, 102) transparent;
+}
+
+TextField{
+    -fx-background-color:rgba(0,20,0,.3);
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: darkgray;
+    -fx-border-radius: 50;
+    -fx-background-radius:50;
+    -fx-max-width:600;
+    -fx-min-height:40;
+}
+PasswordField{
+    -fx-background-color:rgba(0,20,0,.3);
+    -fx-border-radius: 50;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: darkgray;
+    -fx-background-radius:50;
+    -fx-max-width:600;
+    -fx-min-height:40;
+}
+Button{
+    -fx-max-width:600;
+    -fx-min-height:40;
+    -fx-border-radius: 50;
+    -fx-background-radius:50;
+    -fx-background-color:rgb(200, 0, 65);
+    -fx-text-fill:#fff;
+    -fx-font-size:18;
+}
+Button:hover{
+    -fx-background-color:#fff;
+    -fx-text-fill:rgb(255, 0, 102);
+    -fx-cursor:hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(100, 100, 100, 1), 24, 0.5, 0, 0);
+}
+Label{
+    -fx-text-fill:#000;
+    -fx-font-size:17;
+}
+.check-box{
+    -fx-text-fill:#fff;
+    -fx-font-size:16;
+}
+.check-box .box {
+    -fx-background-color: #fff;
+    -fx-background-radius:7;
+
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+.check-box:selected .box {
+    -fx-background-color: rgb(255, 0, 102);
+}
+#forget:hover{
+    -fx-text-fill:rgb(255, 0, 102); 
+    -fx-cursor:hand;
+}

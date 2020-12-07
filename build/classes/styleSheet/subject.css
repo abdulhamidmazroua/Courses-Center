@@ -1,0 +1,51 @@
+#roo{
+    -fx-font-size:15;
+    -fx-background-color: #f5fffe;
+    -fx-alignment:CENTER_LEFT;
+    -fx-padding: 10 0 0 20;
+}
+#left{
+    -fx-padding: 35 15 0 0;
+}
+#lbl_txt, #all_combo, #all_btn{
+    -fx-background-color: #fff;
+    -fx-padding: 20 20 20 10;
+    -fx-background-radius: 30;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 3 );
+} 
+TextField{
+    -fx-background-color: #fff;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-min-width:200;
+    -fx-border-color: rgb(2, 179, 228);
+}
+.label{
+     -fx-min-width:60;
+     -fx-max-width:60;
+     -fx-alignment: BOTTOM_LEFT;
+}
+#three_btn .button{
+    -fx-min-width: 120;
+    -fx-max-width:120;
+    -fx-min-height:40;
+}
+#last_btn .button{
+    -fx-min-width:380;
+    -fx-max-width:360;
+    -fx-min-height:40;
+}
+.button{
+    -fx-background-color: #fff;
+    -fx-border-color: rgb(2, 179, 228);
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-text-fill: rgb(2, 179, 228);
+    -fx-font-family: "Open Sans", sans-serif;
+    -fx-font-size:13;
+    -fx-font-weight:bold;
+}
+.button:hover{
+    -fx-background-color: #65cbe7;
+    -fx-text-fill: #fff;
+}

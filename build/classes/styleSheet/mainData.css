@@ -1,0 +1,29 @@
+Button{
+    -fx-min-width:500;
+    -fx-min-height:150;
+    -fx-background-color:#ffffd8;
+    -fx-text-fill:#000000;
+    -fx-font-size:22;
+    -fx-stroke: black;
+    -fx-font:Tahoma;
+    -fx-font-weight: bold;
+    -fx-base: coral;
+}
+
+Label{
+
+    -fx-font:Tahoma;
+    -fx-font-size:24;
+    -fx-stroke: black;
+    -fx-font-weight: bold;
+    -fx-base: coral;
+
+
+
+}
+#root{
+
+    -fx-background-color:#B87333;
+
+
+}
